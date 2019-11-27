@@ -7,5 +7,5 @@ A QA system based on tensorflow Seq2Seq model.
  <br>运行main.py，用data/lightweight/目录下的chat.txt中的语料训练RNN，
  <br>命令参数`--corpus lightweight --datasetTag chat`
 * <br>**测试:**
-<br>方法1：读data/sample/目录下的sample.txt文件输出回复，命令参数:`--test` 
+<br>方法1：读data/test/目录下的sample.txt文件输出回复，命令参数:`--test` 
 <br>方法2:交互模式，命令参数:`--test interactive`
